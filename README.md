@@ -18,8 +18,8 @@ To build the project, you need to have the following dependencies installed:
 - A C++ compiler (g++, clang++)
 To build the project, follow these steps:
 ``` bash
-git clone https://github.com/EpitechPromo2028/B-OOP-400-TLS-4-1-raytracer-guillaume1.blondel.git
-cd B-OOP-400-TLS-4-1-raytracer-guillaume1.blondel/
+git clone git@github.com:dmelenotte/Raytracer.git
+cd Raytracer
 ./build.sh
 ```
 To clean the project, you can use the following command:
