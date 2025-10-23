@@ -1,0 +1,56 @@
+{
+  "camera": {
+    "resolution": {
+      "width": 1920,
+      "height": 1080
+    },
+    "position": {"x": 0, "y": 0, "z": 30},
+    "rotation": {"x": 5, "y": 15, "z": 0},
+    "fieldOfView": 90.0,
+    "depth": 1
+  },
+  "primitives": {
+    "planes": [
+      {
+        "axis": "Y",
+        "position": -30,
+        "color": {"r": 215, "g": 219, "b": 211},
+        "albedo": {"x": 100, "y": 100, "z": 100},
+        "reflection": {"x": 100, "y": 100, "z": 100}
+      }
+    ],
+    "spheres": [
+      {
+        "position": {"x": 0, "y": -20, "z": 100},
+        "radius": 25.0,
+        "color": {"r": 18, "g": 237, "b": 14},
+        "albedo": {"x": 100, "y": 100, "z": 100},
+        "reflection": {"x": 100, "y": 100, "z": 100}
+      }
+    ],
+    "boxs": [
+      {
+        "position": {"x": 60, "y": -10, "z": 100},
+        "width" : 80,
+        "height": 10,
+        "depth" : 80,
+        "direction": {"x": 0, "y": 0, "z": -10},
+        "color": {"r": 64, "g": 64, "b": 255},
+        "albedo": {"x": 100, "y": 100, "z": 100},
+        "reflection": {"x": 100, "y": 100, "z": 100}
+      }
+    ]
+  },
+  "lights": {
+    "ambient": {
+      "intensity": 0.2
+    },
+    "directionals": [
+      {
+        "intensity": 4.0,
+        "shininess": 12.0,
+        "direction": {"x": 1, "y": -1, "z": 0}
+      }
+    ]
+  }
+}
